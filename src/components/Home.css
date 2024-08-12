@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensures the content is centered vertically */
+}
+
+.content-box {
+  text-align: center; /* Centers text within the content box */
+}
+
+.intro-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  padding: 20px;
+  border-radius: 10px; /* Optional: adds rounded corners to the box */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow */
+}
+
+.user-pic {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintains aspect ratio */
+  margin-top: 20px; /* Adds space between text and image */
+}

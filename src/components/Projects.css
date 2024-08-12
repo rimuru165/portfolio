@@ -1,0 +1,32 @@
+.projects-page {
+  padding: 20px;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-box {
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid #ddd; /* Optional: adds a border around the project box */
+  border-radius: 8px; /* Optional: adds rounded corners to the box */
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  /* The alpha value (0.5) can be adjusted for more or less transparency */
+}
+
+.project-image {
+  width: auto; /* Allows the image to scale while maintaining aspect ratio */
+  max-width: 80%; /* Adjust the percentage to control the size relative to the container */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px; /* Optional: rounded corners for the image */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow around the image */
+}

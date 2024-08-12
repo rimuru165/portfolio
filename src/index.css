@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images.hdqwalls.com/wallpapers/arona-and-plana-blue-archive-19.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.content {
+  padding: 100px 20px;
+}
