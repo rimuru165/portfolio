@@ -1,7 +1,6 @@
 {
   "homepage": "https://github.com/rimuru165/my-portfolio.git",
   "name": "my-portfolio",
-
   "version": "0.1.0",
   "private": true,
   "dependencies": {
